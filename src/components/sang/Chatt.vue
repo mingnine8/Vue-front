@@ -1,7 +1,7 @@
 <template>
     <div id="container">
         <div id="userChatt">
-            chatt
+            Chatt
         </div>
         <ul>
             <li v-for="(msg, index) in messages" :key="`msg-${index}`">

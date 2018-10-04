@@ -196,7 +196,7 @@ export default {
         drawLive () {
             this.ctx.font = "16px Arial";
                 this.ctx.fillStyle = "#0095DD";
-                this.ctx.fillText("Lives: "+lives, canvas.width-65, 20);
+                this.ctx.fillText("Lives: "+ this.lives, this.canvas.width-65, 20);
         }
     },
     computed: {
