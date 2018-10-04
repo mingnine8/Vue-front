@@ -1,29 +1,28 @@
 <template>
   <div class="home">
-    <div id="main">
-      <img style="width: 20%" alt="Vue logo" src="../assets/logo.png">
-    </div>
+    <slider></slider>
     <div id="under">
     <img alt="Vue logo" src="../assets/logo.png">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <img alt="Vue logo" src="../assets/logo.png">
+    <img alt="Vue logo" src="../assets/ox.png">
+    <img alt="Vue logo" src="../assets/Wakeboarder.png">
     </div>
   </div>
 </template>
 
 <script>
+import Slider from '../components/base/Slider';
+
 export default {
-  name: 'home'
+    name: 'home',
+    components: {
+      Slider
+    }
 };
 </script>
 
 <style scoped>
-#main {
-  width: 100%;
-}
 #under {
-
+  margin-top: 5px;
 }
 img {
   width: 10%;
