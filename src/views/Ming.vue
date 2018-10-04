@@ -15,7 +15,8 @@
 <script>
     import '../assets/scss/style.scss';
     import Cell from '../components/ming/Cell.vue';
-    import TileView from '../components/ming/Tile.vue';
+    import TileView from '../components/ming/TileView.vue';
+    import GameEndOverlay from '../components/ming/GameEndOverlay.vue';
     export default {
         data(){
           return {
@@ -55,7 +56,7 @@
         components: {
             Cell,
             TileView,
-            // GameEndOverlay,
+            GameEndOverlay,
         }
     };
 
