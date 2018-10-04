@@ -5,6 +5,7 @@
                 <img v-if="i === 0" src="../../assets/logo.png"/>
                 <img v-else-if="i === 1" src="../../assets/ox.png"/>
                 <img v-else-if="i === 2" src="../../assets/Wakeboarder.png"/>
+                <img v-else-if="i === 3" src="../../assets/mergeNum.png"/>
             </slider-item>
         </slider>
     </div>
@@ -23,7 +24,8 @@ export default {
             list: [
                 0,
                 1,
-                2
+                2,
+                3
             ],
         };
     }
