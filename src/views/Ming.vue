@@ -21,7 +21,7 @@ export default {
     },
     created () {
         // if created this component.
-        this.wellcome();
+        // this.wellcome();
     }
 };
 </script>
